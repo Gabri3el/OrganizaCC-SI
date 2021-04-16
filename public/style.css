@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+body {
+    background-color: #6b6b6c;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #353336;
+    color: #fff;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h3 {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav h3:hover {
+    cursor: pointer;
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.title {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title:hover {
+    text-decoration: none;
+    color: red;
+}
+
+form {
+    color: black;
+    padding: 10px;
+}
+
+.card {
+    color: #000;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+div a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+}
+
+.cite {
+    font-size: 10px;
+}
+
+.horario {
+    color: white;
+    font-size: 12px;
+}
+
+.horario:hover {
+    color: white;
+    font-size: 12px;
+}
+
+.download {
+    font-size: 15px;
+    color: #ab2828;
+    letter-spacing: 2px;
+}
+
+.download:hover {
+    font-size: 15px;
+    color: #ab2828;
+}
